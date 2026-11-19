@@ -1,0 +1,36 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Check Prisma version",
+			"type": "shell",
+			"command": "npm view prisma version",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Check Prisma client version",
+			"type": "shell",
+			"command": "npm view @prisma/client version",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "npm run build",
+			"type": "shell",
+			"command": "npm run build",
+			"isBackground": false
+		},
+		{
+			"label": "Install Prisma client",
+			"type": "shell",
+			"command": "cd \"C:\\Users\\vikram\\OneDrive\\Desktop\\blogs\"; npm install",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
